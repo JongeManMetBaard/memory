@@ -19,11 +19,10 @@ function shuffle(array) {
 
 memory = shuffle(animalLijst);
 
-var img = new Image();
-var div = document.getElementById('images');
-
-img.onload = function() {
-    div.appendChild(img); 
-};
-
-img.src = 'staart.jpg';
+function myFunction() {
+    alert("Image clicked!");
+  }
+  
+  // Simulate a click on the image
+  var image = document.getElementById("myImage");
+  image.click();
